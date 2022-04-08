@@ -3,4 +3,4 @@
 
 [GMSSL](https://github.com/guanzhi/GmSSL) Go 语言接口
 
-**[Usage guide](usage.md)
+**[User guide](usage.md)**
