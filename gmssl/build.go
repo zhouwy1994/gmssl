@@ -1,3 +1,6 @@
+//go:build windows
+// +build windows
+
 /*
  * Copyright 2020 The Hyperledger-TWGC Project Authors. All Rights Reserved.
  *
@@ -10,9 +13,12 @@
 
 package gmssl
 
+
+package gmssl
+
 /*
-#cgo CFLAGS: -I/usr/local/gmssl/include
-#cgo LDFLAGS: -L/usr/local/gmssl/lib -lcrypto -lssl
+#cgo CFLAGS: -g -O2 -IC:/Users/Mr.Zhou/Work/Utils/Gmssl/GmSSL-x64-Mingw/include
+#cgo LDFLAGS: -g -O2 C:/Users/Mr.Zhou/Work/Utils/Gmssl/GmSSL-x64-Mingw/libssl.a C:/Users/Mr.Zhou/Work/Utils/Gmssl/GmSSL-x64-Mingw/libcrypto.a -lws2_32 -lgdi32 -lcrypt32
 
 #include <openssl/bio.h>
 #include <openssl/crypto.h>
