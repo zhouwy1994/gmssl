@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Hyperledger-TWGC/pku-gm/gmssl"
+	"github.com/zhouwy1994/gmssl/gmssl"
 	"testing"
 )
 

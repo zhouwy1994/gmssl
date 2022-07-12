@@ -1,3 +1,3 @@
-module github.com/Hyperledger-TWGC/pku-gm
+module github.com/zhouwy1994/gmssl
 
 go 1.18
